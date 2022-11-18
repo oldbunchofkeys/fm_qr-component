@@ -2,7 +2,7 @@
   <div class="card__container"> 
     <div class="card">
       <img src="../assets/image-qr-code.png" alt="qr code">
-      <h3>{{heading}}</h3>
+      <h1>{{heading}}</h1>
       <p>{{body}}</p>
     </div>
   </div>
