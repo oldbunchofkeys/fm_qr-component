@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <qr-card tit="qr card component" heading="Improve your front-end skills by building projects" body="Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import QrCard from './components/qr-card.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    QrCard
   }
 }
 </script>
 
 <style>
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 0;
+  height: 100vh;
 }
 </style>
