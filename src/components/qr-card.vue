@@ -24,13 +24,14 @@ export default {
   h1,h3,p {
     font-family: 'Outfit';
   }
-  h3 {
+  h1 {
     font-size: 22px;
     margin-top: 24px;
   }
   p {
     font-size: 15px;
-    margin: 1rem 1rem 24px ;
+    margin: 1rem 1rem 24px;
+    color:#7D889E;
   }
   img {
     width: 100%;
