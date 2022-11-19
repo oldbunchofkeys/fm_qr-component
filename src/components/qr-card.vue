@@ -31,6 +31,7 @@ export default {
   p {
     font-size: 15px;
     margin: 1rem 1rem 24px;
+    line-height: 19px;
     color:#7D889E;
   }
   img {
