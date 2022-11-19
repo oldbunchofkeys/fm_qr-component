@@ -26,7 +26,7 @@ export default {
   }
   h1 {
     font-size: 22px;
-    margin-top: 24px;
+    margin-top: 22px;
   }
   p {
     font-size: 15px;
