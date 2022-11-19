@@ -1,7 +1,7 @@
 <template>
   <main>
     <div id="app">
-      <qr-card tit="qr card component" heading="Improve your front-end skills by building projects" body="Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"/>
+      <qr-card heading="Improve your front-end skills by building projects" body="Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"/>
     </div>
   </main>
 </template>
